@@ -1,0 +1,30 @@
+#----- Default SonarQube server
+#sonar.host.url=http://13.229.238.92:9000
+#sonar.jdbc.username=sonar
+#sonar.jdbc.password=Sonar@1234
+
+#----- Embedded Database (default)
+# H2 embedded database server listening port, defaults to 9092
+#sonar.embeddedDatabase.port=9092
+
+#----- MySQL 5.6 or greater
+# Only InnoDB storage engine is supported (not myISAM).
+# Only the bundled driver is supported. It can not be changed.
+#sonar.jdbc.url=jdbc:mysql://localhost:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false
+
+
+
+#----- Default source code encoding
+#sonar.sourceEncoding=UTF-8
+# must be unique in a given SonarQube instance
+sonar.projectKey=UMA
+# this is the name and version displayed in the SonarQube UI. Was mandatory prior to SonarQube 6.1.
+sonar.projectName=uma
+sonar.projectVersion=1.0
+
+# Path is relative to the sonar-project.properties file. Replace "\" by "/" on Windows.
+# This property is optional if sonar.modules is set.
+sonar.sources=/root/uma
+sonar.scm.provider=/root/uma
+# Encoding of the source code. Default is default system encoding
+sonar.sourceEncoding=UTF-8
