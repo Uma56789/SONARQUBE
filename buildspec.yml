@@ -9,3 +9,4 @@
    # Comma-separated paths to test source directories (optional)
    sonar.tests=/root/helios/sonarjs/test
    sonar.language=java
+   sonar.123456789
